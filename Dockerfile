@@ -10,4 +10,5 @@ COPY assets/ /etc/nginx/html/assets/
 # support running as arbitrary user which belogs to the root group
 RUN chmod g+rwx /var/cache/nginx /var/run /var/log/nginx  && chmod -R g+w /etc/nginx
 # output port set WORKDIR to app
+
 EXPOSE 80
