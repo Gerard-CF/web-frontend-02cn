@@ -1,5 +1,5 @@
 FROM nginx:latest
-USER root
+
 # deploy specific nginx configuration file
 COPY environments/nginx.conf /etc/nginx/nginx.conf
 COPY certs/server.crt /etc/nginx/certs/server.crt
