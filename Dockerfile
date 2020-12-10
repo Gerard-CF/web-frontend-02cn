@@ -11,4 +11,4 @@ COPY assets/ /etc/nginx/html/assets/
 RUN chmod g+rwx /var/cache/nginx /var/run /var/log/nginx  && chmod -R g+w /etc/nginx
 # output port set WORKDIR to app
 
-EXPOSE 80
+EXPOSE 8888
