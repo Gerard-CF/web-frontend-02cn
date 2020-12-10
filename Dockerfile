@@ -15,4 +15,4 @@ RUN sed -i.bak 's/listen\(.*\)80;/listen 8888;/' /etc/nginx/conf.d/default.conf
 RUN sed -i.bak 's/^user/#user/' /etc/nginx/nginx.conf
 # output port set WORKDIR to app
 
-EXPOSE 80
+EXPOSE 8080
