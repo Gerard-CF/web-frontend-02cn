@@ -16,5 +16,3 @@ RUN sed -i.bak 's/^user/#user/' /etc/nginx/nginx.conf
 # output port set WORKDIR to app
 
 EXPOSE 8888
-
-#CMD ["nginx", "-g", "daemon off;"]
