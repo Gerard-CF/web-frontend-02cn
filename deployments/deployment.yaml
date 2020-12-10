@@ -41,9 +41,9 @@ metadata:
 spec:
   ports:
   - name: https
-    port: 443
+    port: 8443
     protocol: TCP
-    targetPort: 443
+    targetPort: 8443
   - name: http
     port: 8888
     protocol: TCP
